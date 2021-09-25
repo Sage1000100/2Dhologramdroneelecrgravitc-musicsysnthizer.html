@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F272B226FF661900F4B80E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F272B126FF661900F4B80E /* AppDelegate.m */; };
+		61F272B526FF661900F4B80E /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F272B426FF661900F4B80E /* Document.m */; };
+		61F272B826FF661900F4B80E /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F272B626FF661900F4B80E /* Document.xib */; };
+		61F272BB26FF661900F4B80E /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61F272B926FF661900F4B80E /* Document.xcdatamodeld */; };
+		61F272BD26FF661B00F4B80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F272BC26FF661B00F4B80E /* Assets.xcassets */; };
+		61F272C026FF661B00F4B80E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F272BE26FF661B00F4B80E /* MainMenu.xib */; };
+		61F272C326FF661B00F4B80E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F272C226FF661B00F4B80E /* main.m */; };
+		61F272CE26FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F272CD26FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m */; };
+		61F272D926FF661C00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F272D826FF661C00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F272CA26FF661B00F4B80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F272A526FF661900F4B80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F272AC26FF661900F4B80E;
+			remoteInfo = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+		};
+		61F272D526FF661C00F4B80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F272A526FF661900F4B80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F272AC26FF661900F4B80E;
+			remoteInfo = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F272AD26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2Dhologramdroneelecrgravitc&musicsysnthizer.html.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F272B026FF661900F4B80E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61F272B126FF661900F4B80E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61F272B326FF661900F4B80E /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		61F272B426FF661900F4B80E /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		61F272B726FF661900F4B80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		61F272BA26FF661900F4B80E /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		61F272BC26FF661B00F4B80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F272BF26FF661B00F4B80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		61F272C126FF661B00F4B80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F272C226FF661B00F4B80E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61F272C426FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_html.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _Dhologramdroneelecrgravitc_musicsysnthizer_html.entitlements; sourceTree = "<group>"; };
+		61F272C926FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F272CD26FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m; sourceTree = "<group>"; };
+		61F272CF26FF661B00F4B80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F272D426FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F272D826FF661C00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m; sourceTree = "<group>"; };
+		61F272DA26FF661C00F4B80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F272AA26FF661900F4B80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272C626FF661B00F4B80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272D126FF661C00F4B80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F272A426FF661900F4B80E = {
+			isa = PBXGroup;
+			children = (
+				61F272AF26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */,
+				61F272CC26FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests */,
+				61F272D726FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests */,
+				61F272AE26FF661900F4B80E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F272AE26FF661900F4B80E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F272AD26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html.app */,
+				61F272C926FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests.xctest */,
+				61F272D426FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F272AF26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */ = {
+			isa = PBXGroup;
+			children = (
+				61F272B026FF661900F4B80E /* AppDelegate.h */,
+				61F272B126FF661900F4B80E /* AppDelegate.m */,
+				61F272B326FF661900F4B80E /* Document.h */,
+				61F272B426FF661900F4B80E /* Document.m */,
+				61F272B626FF661900F4B80E /* Document.xib */,
+				61F272BC26FF661B00F4B80E /* Assets.xcassets */,
+				61F272BE26FF661B00F4B80E /* MainMenu.xib */,
+				61F272C126FF661B00F4B80E /* Info.plist */,
+				61F272C226FF661B00F4B80E /* main.m */,
+				61F272C426FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_html.entitlements */,
+				61F272B926FF661900F4B80E /* Document.xcdatamodeld */,
+			);
+			path = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			sourceTree = "<group>";
+		};
+		61F272CC26FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F272CD26FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m */,
+				61F272CF26FF661B00F4B80E /* Info.plist */,
+			);
+			path = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests";
+			sourceTree = "<group>";
+		};
+		61F272D726FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F272D826FF661C00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m */,
+				61F272DA26FF661C00F4B80E /* Info.plist */,
+			);
+			path = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F272AC26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F272DD26FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.html" */;
+			buildPhases = (
+				61F272A926FF661900F4B80E /* Sources */,
+				61F272AA26FF661900F4B80E /* Frameworks */,
+				61F272AB26FF661900F4B80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			productName = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			productReference = 61F272AD26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F272C826FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F272E026FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests" */;
+			buildPhases = (
+				61F272C526FF661B00F4B80E /* Sources */,
+				61F272C626FF661B00F4B80E /* Frameworks */,
+				61F272C726FF661B00F4B80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F272CB26FF661B00F4B80E /* PBXTargetDependency */,
+			);
+			name = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests";
+			productName = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests";
+			productReference = 61F272C926FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61F272D326FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F272E326FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests" */;
+			buildPhases = (
+				61F272D026FF661C00F4B80E /* Sources */,
+				61F272D126FF661C00F4B80E /* Frameworks */,
+				61F272D226FF661C00F4B80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F272D626FF661C00F4B80E /* PBXTargetDependency */,
+			);
+			name = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests";
+			productName = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests";
+			productReference = 61F272D426FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F272A526FF661900F4B80E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "james williams";
+				TargetAttributes = {
+					61F272AC26FF661900F4B80E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					61F272C826FF661B00F4B80E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61F272AC26FF661900F4B80E;
+					};
+					61F272D326FF661C00F4B80E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 61F272AC26FF661900F4B80E;
+					};
+				};
+			};
+			buildConfigurationList = 61F272A826FF661900F4B80E /* Build configuration list for PBXProject "2Dhologramdroneelecrgravitc&musicsysnthizer.html" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F272A426FF661900F4B80E;
+			productRefGroup = 61F272AE26FF661900F4B80E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F272AC26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */,
+				61F272C826FF661B00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests */,
+				61F272D326FF661C00F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F272AB26FF661900F4B80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F272BD26FF661B00F4B80E /* Assets.xcassets in Resources */,
+				61F272B826FF661900F4B80E /* Document.xib in Resources */,
+				61F272C026FF661B00F4B80E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272C726FF661B00F4B80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272D226FF661C00F4B80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F272A926FF661900F4B80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F272BB26FF661900F4B80E /* Document.xcdatamodeld in Sources */,
+				61F272B526FF661900F4B80E /* Document.m in Sources */,
+				61F272C326FF661B00F4B80E /* main.m in Sources */,
+				61F272B226FF661900F4B80E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272C526FF661B00F4B80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F272CE26FF661B00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F272D026FF661C00F4B80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F272D926FF661C00F4B80E /* _Dhologramdroneelecrgravitc_musicsysnthizer_htmlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F272CB26FF661B00F4B80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F272AC26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */;
+			targetProxy = 61F272CA26FF661B00F4B80E /* PBXContainerItemProxy */;
+		};
+		61F272D626FF661C00F4B80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F272AC26FF661900F4B80E /* 2Dhologramdroneelecrgravitc&musicsysnthizer.html */;
+			targetProxy = 61F272D526FF661C00F4B80E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F272B626FF661900F4B80E /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F272B726FF661900F4B80E /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		61F272BE26FF661B00F4B80E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F272BF26FF661B00F4B80E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F272DB26FF661C00F4B80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61F272DC26FF661C00F4B80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61F272DE26FF661C00F4B80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "2Dhologramdroneelecrgravitc&musicsysnthizer.html/_Dhologramdroneelecrgravitc_musicsysnthizer_html.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.html/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-html";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61F272DF26FF661C00F4B80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "2Dhologramdroneelecrgravitc&musicsysnthizer.html/_Dhologramdroneelecrgravitc_musicsysnthizer_html.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.html/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-html";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61F272E126FF661C00F4B80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-htmlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Dhologramdroneelecrgravitc&musicsysnthizer.html.app/Contents/MacOS/2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			};
+			name = Debug;
+		};
+		61F272E226FF661C00F4B80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-htmlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Dhologramdroneelecrgravitc&musicsysnthizer.html.app/Contents/MacOS/2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			};
+			name = Release;
+		};
+		61F272E426FF661C00F4B80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-htmlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			};
+			name = Debug;
+		};
+		61F272E526FF661C00F4B80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alchemist-tech.-Dhologramdroneelecrgravitc-musicsysnthizer-htmlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2Dhologramdroneelecrgravitc&musicsysnthizer.html";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F272A826FF661900F4B80E /* Build configuration list for PBXProject "2Dhologramdroneelecrgravitc&musicsysnthizer.html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F272DB26FF661C00F4B80E /* Debug */,
+				61F272DC26FF661C00F4B80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F272DD26FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F272DE26FF661C00F4B80E /* Debug */,
+				61F272DF26FF661C00F4B80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F272E026FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F272E126FF661C00F4B80E /* Debug */,
+				61F272E226FF661C00F4B80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F272E326FF661C00F4B80E /* Build configuration list for PBXNativeTarget "2Dhologramdroneelecrgravitc&musicsysnthizer.htmlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F272E426FF661C00F4B80E /* Debug */,
+				61F272E526FF661C00F4B80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61F272B926FF661900F4B80E /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61F272BA26FF661900F4B80E /* Document.xcdatamodel */,
+			);
+			currentVersion = 61F272BA26FF661900F4B80E /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61F272A526FF661900F4B80E /* Project object */;
+}
